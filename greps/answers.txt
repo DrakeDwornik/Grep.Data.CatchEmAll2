@@ -1,37 +1,68 @@
 # Part 1
 ### a)
-
-
-
+ggrep -P -e 'beed.*?rill' forest/filescan_00.1 > beedrill.txt
+ggrep -P -e 'blas.*?toise' forest/filescan_00.1 > blastoise.txt
+ggrep -P -e 'bulb.*?asaur' forest/filescan_00.1 > bulbasaur.txt
+ggrep -P -e 'butt.*?erfree' forest/filescan_00.1 >butterfree.txt
+ggrep -P -e 'char.*?izard' forest/filescan_00.2 > charizard.txt
+ggrep -P -e 'char.*?mander' forest/filescan_00.2 > charmander.txt
+ggrep -P -e 'char.*?meleon' forest/filescan_00.2 > charmeleon.txt
+ggrep -P -e 'ivys.*?aur' forest/filescan_00.3 >ivysaur.txt
+ggrep -P -e 'jigg.*?lypuff' forest/filescan_00.3 > jigglypuff.txt
+ggrep -P -e 'meow.*?th' forest/filescan_00.3 > meowth.txt
+ggrep -P -e 'pika.*?chu' forest/filescan_00.3 > pikachu.txt
+ggrep -P -e 'psyd.*?uck' forest/filescan_00.4 >psyduck.txt
+ggrep -P -e 'squi.*?rtle' forest/filescan_00.4  >squirtle.txt
+ggrep -P -e 'wart.*?ortle' forest/filescan_00.4   > wartortle.txt
+ggrep -P -e 'venu.*?saur' forest/filescan_00.4> venusaur.txt
 
 ### b)
-
+ggrep -P -e 'beed.*?rill' forest/filescan_00.1 > captured/beedrill.txt
+ggrep -P -e 'blas.*?toise' forest/filescan_00.1 > captured/blastoise.txt
+ggrep -P -e 'bulb.*?asaur' forest/filescan_00.1 > captured/bulbasaur.txt
+ggrep -P -e 'butt.*?erfree' forest/filescan_00.1 >captured/butterfree.txt
+ggrep -P -e 'char.*?izard' forest/filescan_00.2 > captured/charizard.txt
+ggrep -P -e 'char.*?mander' forest/filescan_00.2 > captured/charmander.txt
+ggrep -P -e 'char.*?meleon' forest/filescan_00.2 > captured/charmeleon.txt
+ggrep -P -e 'ivys.*?aur' forest/filescan_00.3 > captured/ivysaur.txt
+ggrep -P -e 'jigg.*?lypuff' forest/filescan_00.3 > captured/jigglypuff.txt
+ggrep -P -e 'meow.*?th' forest/filescan_00.3 > captured/meowth.txt
+ggrep -P -e 'pika.*?chu' forest/filescan_00.3 > captured/pikachu.txt
+ggrep -P -e 'psyd.*?uck' forest/filescan_00.4 >captured/psyduck.txt
+ggrep -P -e 'squi.*?rtle' forest/filescan_00.4  >captured/squirtle.txt
+ggrep -P -e 'wart.*?ortle' forest/filescan_00.4   > captured/wartortle.txt
+ggrep -P -e 'venu.*?saur' forest/filescan_00.4>captured/venusaur.txt
 
 
 ### c)
-
-
-
-
-
-
-
-
-
-
-
+filescan_00.1 > beedrill.txt
+filescan_00.1 > blastoise.txt
+filescan_00.1 > bulbasaur.txt
+filescan_00.1 > butterfree.txt
+filescan_00.2 > charizard.txt
+filescan_00.2 > charmander.txt
+filescan_00.2 > charmeleon.txt
+filescan_00.3 > ivysaur.txt
+filescan_00.3 > jigglypuff.txt
+filescan_00.3 > meowth.txt
+filescan_00.3 > pikachu.txt
+filescan_00.4 > psyduck.txt
+filescan_00.4 > squirtle.txt
+filescan_00.4 > wartortle.txt
+filescan_00.4 > venusaur.txt
 
 
 # Part 2
 ### a)
 
-
-
-
-
+15 pokemon
+ls captured | ggrep -P -e 'txt'|wc -l
 
 ### b)
 
+Didn't use grep
+wc -l captured/*
+beedrill, charizard, pikachu
 
 
 
